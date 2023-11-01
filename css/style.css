@@ -1,0 +1,596 @@
+/* /* ここから下に記載していく * */
+
+
+header {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+#header {
+  display: flex;
+}
+
+
+.C {
+  font-size: 70px;
+  margin-left: 30px;
+  margin-right: 20px;
+
+}
+
+.cheese {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-right: 400px;
+
+}
+
+
+
+
+.migihaiti {
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-left: 50px;
+    padding-top: 30px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.image-container {
+    display: flex;
+    position: relative;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overlay-text {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+
+}
+
+.overlay-text2 {
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+}
+
+#showtitle1 {
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(184, 166, 29);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.point {
+    text-align: center;
+    font-size: 18px;
+
+
+}
+
+.setumei1 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    
+
+}
+
+.setumei2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+
+}
+
+.setumei3 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 16px;
+
+}
+
+
+.setumei4 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 16px;
+
+}
+
+.setumei5 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+
+
+}
+
+.setumei6 {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 16px;
+
+}
+
+.sliderap {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.slide {
+    
+
+    flex: 0 0 auto;
+
+
+}
+
+
+#showtitle2 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 18px;
+
+
+
+}
+
+.setumei7 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+
+}
+
+.setumei8 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.cours1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.migitext {
+    width: 700px;
+    
+   
+    
+
+
+
+
+}
+
+.migitext div {
+    
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: bold;
+
+
+
+}
+
+
+.migitext p {
+
+    margin-bottom: 10px;
+    margin-left: 50px;
+    font-size: 16px;
+
+
+
+}
+
+
+.cours2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidaritext {
+    width: 700px;
+    
+
+    
+}
+
+
+.hidaritext div {
+    font-weight: bold;
+    
+    margin-bottom: 40px;
+    font-size: 16px;
+
+
+
+}
+
+.hidaritext p {
+    margin-bottom: 10px;
+    padding-left: 30%;
+    padding-right: 50px;
+
+}
+
+
+.cours3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#tyutitle {
+    text-align: center;
+    font-size: 24px;
+    color: green;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.nws {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+     
+}
+
+.aaa {
+   min-width: 300px;
+   margin-right: 30px;
+}
+
+.aaa:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.coment1 {
+    margin-top: 30px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.coment2 {
+    margin-bottom: 10px;
+    font-size: 12px
+}
+
+.news {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+    
+}
+
+.bottan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.bottantxt:hover {
+    color: white;
+    font-weight: bold;
+    background-color: green;
+
+}
+
+.bottantxt {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 300px;
+    background-color: yellow;
+    font-size: 18px;
+   
+
+}
+
+.kaisya {
+    margin-top: 60px;
+
+}
+
+#access {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.kaisyattl {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+#map {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gakkoumei {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 30px;
+ 
+}
+
+.gakkou {
+   flex: 1;
+   text-align: right;
+}
+
+.space {
+    flex: 0;
+    margin-left: 100px;
+}
+
+.chees {
+    flex: 1;
+    text-align: left;
+ 
+
+}
+
+.adress1 {
+    display: flex;
+
+}
+
+.adress2 {
+    flex: 1;
+    text-align: right;
+
+}
+
+.space2 {
+    flex: 0;
+    margin-left: 100px;
+
+}
+
+.adress3 {
+    flex: 1;
+    text-align: left;
+
+}
+
+.tel1 {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.tel2 {
+    flex: 1;
+    text-align: right;
+
+}
+
+.space3 {
+    flex: 0;
+    margin-left: 100px;
+
+}
+
+.tel3 {
+    flex: 1;
+    text-align: left;
+
+}
+
+
+.fax1 {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.fax2 {
+    flex: 1;
+    text-align: right;
+}
+
+.space4 {
+    flex: 0;
+    margin-left: 100px;
+
+}
+
+.fax3 {
+    flex: 1;
+    text-align: left;
+}
+
+
+.mail1 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 60px;
+
+}
+
+.mail2 {
+    flex: 1;
+    text-align: right;
+
+}
+
+.space5 {
+    flex: 0;
+    margin-left: 100px;
+
+}
+
+
+.mail3 {
+    flex: 1;
+    text-align: left;
+
+
+}
+
+
+.kaisya {
+
+    width: auto;
+    
+    background-color: rgb(241, 236, 236);
+}
+
+
+#contact{
+   text-align: center;
+   font-size: 24px;
+   font-weight: bold;
+
+
+}
+
+.mousikomi {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+
+
+}
+
+.mousikomi2 {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+
+}
+
+.mousikomi3 {
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.hosoku1 {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+
+}
+
+.hosoku2 {
+    text-align: center;
+    font-size: 16px;
+
+}
+
+
+
+
+
+form {
+    width: 50%;
+    margin: 10% auto;
+    min-width: 9rem;
+
+}
+
+input,textarea {
+    position: relative;
+    
+    width: 100%;
+    height: 40px;
+    max-width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    background: darken(#f9f9f9, 10%);
+    color: darken(#f9f9f9, 50%);
+    font-size: 20px;
+}
+
+select {
+    position: relative;
+    
+    width: 100%;
+    height: 40px;
+    max-width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    background: darken(#f9f9f9, 10%);
+    color: darken(#f9f9f9, 50%);
+    font-size: 20px;
+}
+
+.bottan2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+footer {
+    margin-top: 140px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: #707070;
+
+}
+
+.daititle {
+
+    font-size: 20px;
+}
